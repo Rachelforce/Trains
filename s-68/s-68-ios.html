@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>S-68</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style-ios.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+<div id="top_gradient"><p id="largetext">C68</p> <p> Пассажирский паровоз</p></div>
+
+<model-viewer id="modelViewer" bounds="tight" src="../models/S-68.glb" ios-src="fast-food.usdz" autoplay camera-controls
+              shadow-intensity="1" quick-look-browsers="safari chrome">
+
+
+</model-viewer>
+
+<div id="buttons">
+    <div id="ar_button">
+        <table class="ar">
+            <tr>
+                <td class="leftcol"><img src="../resources/actions_ar.svg"
+                                         width="115" height="115"></td>
+                <td class="rightcol uppertext" valign="center">посмотреть
+                    <p>в Дополненной
+                    <p>реальности</td>
+            </tr>
+
+        </table>
+
+        <a rel="ar" class="ar-button"
+           href="model.usdz#custom=https://rachelforce.github.io/TrainsTest/bunner.html&customHeight=large"><img src="../resources/logo.svg" width="0" height="0"></a>
+
+    </div>
+    <div id="app_button">
+        <table class="app">
+            <tr>
+                <td class="leftcol"><img src="../resources/logo.svg"
+                                         width="115" height="115"></td>
+                <td class="rightcol largertext" valign="center">Скачать мобильное приложение
+            </tr>
+        </table>
+        <a class="app-button"
+           href="https://vk.com"></a>
+    </div>
+</div>
+
+</body>
+
+
+<script type="text/javascript">
+    const linkElement = document.getElementById("CustomAction");
+
+    function DetectAndServe() {
+        window.location.href = "https://apps.apple.com/ru/app/%D0%BC%D1%83%D0%B7%D0%B5%D0%B9-%D0%B6%D0%B4/id1617085175";
+    }
+
+    linkElement.addEventListener("message", function (event) {
+        if (event.data == "_apple_ar_quicklook_button_tapped") {
+            setTimeout(DetectAndServe(), 1000);
+        }
+    }, false);</script>
+</html>
