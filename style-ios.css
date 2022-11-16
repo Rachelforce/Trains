@@ -12,11 +12,13 @@ body {
     height: 100%;
     width: 100%;
     text-align: center;
+
 }
 
 model-viewer {
     height: 100%;
     width: 100%;
+    background: #C2CEDA;
 }
 
 #top_gradient{
