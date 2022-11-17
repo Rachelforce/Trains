@@ -13,43 +13,40 @@
 <body>
 
 
-<model-viewer id="modelViewer" src="../models/S-68.glb" camera-controls shadow-intensity="1" >
-    <div id="top_gradient"><p id="largetext">C68</p> <p> Пассажирский паровоз</p></div>
+<model-viewer id="modelViewer" src="../models/S-68.glb" camera-controls shadow-intensity="1">
+    <div id="top_gradient"><p id="largetext">C68</p>
+        <p> Пассажирский паровоз</p></div>
 
     <div id="buttons">
-        <div id="ar_button">
-            <table class="ar">
-                <tr>
-                    <td class="leftcol"><img src="../resources/actions_ar.svg"
-                                             width="105" height="105"></td>
-                    <td class="rightcol uppertext" valign="center">посмотреть
-                        <p>в Дополненной
-                        <p>реальности</td>
-                </tr>
+        <div class="button button-blur">
+            <span class="left"><img src="../resources/actions_ar.svg"
+                                   width="105" height="105"></span>
+            <span class="right uppertext">
+                <p>посмотреть
+                <p>в Дополненной
+                <p>реальности
+            </span>
 
-            </table>
+
             <a rel="ar" class="ar-button"
                href="../models/S-68.usdz"><img src="../resources/logo.svg" width="0" height="0">
-              </a>
+            </a>
         </div>
-        <div id="app_button">
-            <table class="app">
-                <tr>
-                    <td class="leftcol"><img src="../resources/logo.svg"
-                                             width="115" height="115"></td>
-                    <td class="rightcol largertext" valign="center">Скачать мобильное приложение
-                </tr>
-            </table>
-            <a class="app-button"
-               href="https://apps.apple.com/ru/app/%D0%BC%D1%83%D0%B7%D0%B5%D0%B9-%D0%B6%D0%B4/id1617085175"></a>
+        <div class="button button-white">
+
+                <div class="left"><img src="../resources/logo.svg"
+                                       width="115" height="115"></div>
+                <div class="right largertext right-padding">Скачать мобильное приложение
+                </div>
+
+                <a class="app-button"
+                   href="https://apps.apple.com/ru/app/%D0%BC%D1%83%D0%B7%D0%B5%D0%B9-%D0%B6%D0%B4/id1617085175"></a>
         </div>
     </div>
 </model-viewer>
 
 
-
 </body>
-
 
 
 </html>
