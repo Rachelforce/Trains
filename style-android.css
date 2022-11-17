@@ -60,7 +60,7 @@ model-viewer {
     height: 208px;
     background: rgba(255, 255, 255, 0.3);
     border: 2px solid rgba(97, 115, 130, 0.3);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(6px);
 
     border-radius: 60px;
 }
@@ -94,8 +94,8 @@ model-viewer {
 }
 
 TD.leftcol {
-    width: 110px;
-    padding-right: 70px;
+    width: 115px;
+    padding-right: 40px;
 }
 
 table.ar {
