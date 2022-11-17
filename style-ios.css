@@ -71,7 +71,10 @@ model-viewer {
     margin-top: 20px;
     border-radius: 60px;
 }
-
+#ar_button_background{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 60px;
+}
 .ar-button {
     border-radius: 30px;
     position: absolute;
@@ -97,7 +100,7 @@ TD.leftcol {
 table.ar {
     box-sizing: border-box;
 
-    background: rgba(255, 255, 255, 0.3);
+
 
     border: 2px solid rgba(97, 115, 130, 0.3);
     backdrop-filter: blur(6px);
