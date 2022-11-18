@@ -58,7 +58,9 @@ model-viewer {
     height: 100%; width: 100%;
     top:0;
     left:0;
+
 }
+
 .button {
     position: relative;
     text-decoration: none;
@@ -72,8 +74,6 @@ model-viewer {
 .button-blur{
     background-color: rgba(255, 255, 255, 0.3);
     border: 2px solid rgba(97, 115, 130, 0.3);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
 }
 
 .button-white{
