@@ -60,6 +60,7 @@ model-viewer {
     left:0;
 }
 .button {
+    position: relative;
     text-decoration: none;
     width: 100%;
     height: 208px;
