@@ -8,6 +8,12 @@ html {
     width: 100%;
 }
 
+img{
+    display:block;
+    margin:auto;
+    height: 5.4vh;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -80,6 +86,7 @@ model-viewer {
     background: rgba(213, 221, 229, 0.9);
     border: 0.08em solid rgba(97, 115, 130, 0.3);
     text-transform: uppercase;
+    backdrop-filter: blur(7.0028px);
 }
 
 .left{
@@ -93,15 +100,6 @@ model-viewer {
     float: right;
 }
 
-
-
-img{
-    display:block;
-    margin:auto;
-    height: 5.4vh;
-}
-
 .largertext{
     font-size: 2.6rem;
-
 }
