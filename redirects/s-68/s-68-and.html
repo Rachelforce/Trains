@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>S-68</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../style-android.css">
-
-
+    <link rel="stylesheet" href="../../style-ios.css">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <body>
@@ -22,34 +21,26 @@
 </model-viewer>
 <div id="top_gradient"><p id="largetext">C68</p> <p> Пассажирский паровоз</p></div>
 <div id="buttons">
-    <div id="ar_button">
-        <table class="ar">
-            <tr>
-                <td class="leftcol"><img src="../../resources/actions_ar.svg"
-                                         width="105" height="105"></td>
-                <td class="rightcol uppertext" valign="center">посмотреть
-                    <p>в Дополненной
-                    <p>реальности</td>
-            </tr>
-        </table>
+    <div class="button button-blur">
+        <span class="left"><img src="../../resources/actions_ar.svg"></span>
+        <span class="right">
+                <p>посмотреть</p>
+                <p>в Дополненной</p>
+                <p>реальности</p>
+            </span>
+
 
         <a rel="ar" class="ar-button"
            href="intent://arvr.google.com/scene-viewer/1.1?file=https://dp.rzd-museum.ru/promo/models/S-68.glb&mode=ar_only#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;"></a>
-
     </div>
-    <div id="app_button">
-        <table class="app">
-            <tr>
-                <td class="leftcol"><img src="../../resources/logo.svg"
-                                         width="115" height="115"></td>
-                <td class="rightcol largertext" valign="center">Скачать мобильное приложение
-            </tr>
-        </table>
-        <a class="app-button"
-           href="https://play.google.com/store/apps/details?id=com.museumrzd.app"></a>
+    <div class="button">
 
-    </div>
+        <div class="left"><img src="../../resources/logo.svg"></div>
+        <div class="right">Скачать мобильное приложение
+        </div>
+
+        <a class="ar-button"
+           href="https://play.google.com/store/apps/details?id=com.museumrzd.app"></a> </div>
 </div>
-
 </body>
 </html>
