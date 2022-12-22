@@ -394,10 +394,10 @@
     "extras": {
       "author": "art.piskov (https://sketchfab.com/art.piskov)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/lgfghjkjhg-c0c3827e51a24c209105888c4a692a96",
-      "title": "lgfghjkjhg"
+      "source": "https://sketchfab.com/3d-models/rerwwewewefrl-8fc8a30f7c52418b9f7067d22a4f9300",
+      "title": "rerwweweweFRL"
     },
-    "generator": "Sketchfab-14.41.0",
+    "generator": "Sketchfab-14.60.0",
     "version": "2.0"
   },
   "bufferViews": [
@@ -431,7 +431,8 @@
     }
   ],
   "extensionsUsed": [
-    "KHR_materials_transmission"
+    "KHR_materials_transmission",
+    "KHR_materials_specular"
   ],
   "images": [
     {
@@ -471,6 +472,14 @@
       "alphaMode": "BLEND",
       "doubleSided": true,
       "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        },
         "KHR_materials_transmission": {
           "transmissionFactor": 1.0
         }
@@ -489,6 +498,16 @@
     },
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
       "name": "M_WindowsBack",
       "pbrMetallicRoughness": {
         "baseColorTexture": {

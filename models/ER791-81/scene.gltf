@@ -451,10 +451,10 @@
     "extras": {
       "author": "art.piskov (https://sketchfab.com/art.piskov)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/esfdgrhj-77d0a309e93143469203662ce4fa431f",
-      "title": "esfdgrhj"
+      "source": "https://sketchfab.com/3d-models/klmgsmkgfbkml-0e7d4052dd374176a950bcbc00281ce4",
+      "title": "klmgsmk;gfbk;ml"
     },
-    "generator": "Sketchfab-14.41.0",
+    "generator": "Sketchfab-14.60.0",
     "version": "2.0"
   },
   "bufferViews": [
@@ -495,9 +495,15 @@
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
   "images": [
     {
       "uri": "textures/MAT01_baseColor.png"
+    },
+    {
+      "uri": "textures/MAT01_specularf0.png"
     },
     {
       "uri": "textures/MAT02_baseColor.png"
@@ -506,12 +512,25 @@
       "uri": "textures/MAT03_baseColor.png"
     },
     {
-      "uri": "textures/M_WindowsBack_baseColor.png"
+      "uri": "textures/M_GlassTrans_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0,
+          "specularTexture": {
+            "index": 1
+          }
+        }
+      },
       "name": "MAT01",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
@@ -526,7 +545,7 @@
       "name": "MAT02",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 1
+          "index": 2
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.552786
@@ -537,7 +556,7 @@
       "name": "MAT03",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 2
+          "index": 3
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.552786
@@ -545,24 +564,41 @@
     },
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
       "name": "M_GlassTrans",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.03564081245896186,
-          0.03564081245896186,
-          0.03564081245896186,
-          1.0
-        ],
+        "baseColorTexture": {
+          "index": 4
+        },
         "metallicFactor": 0.222727,
         "roughnessFactor": 0.0
       }
     },
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
       "name": "M_WindowsBack",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
-          "index": 3
+          "index": 4
         },
         "metallicFactor": 0.0,
         "roughnessFactor": 0.5
@@ -673,17 +709,17 @@
         1
       ],
       "matrix": [
-        0.015384615398943424,
+        0.027397295460104942,
         0.0,
         0.0,
         0.0,
         0.0,
-        3.4160708481819456e-18,
-        -0.015384615398943424,
+        6.083421646453356e-18,
+        -0.027397295460104942,
         0.0,
         0.0,
-        0.015384615398943424,
-        3.4160708481819456e-18,
+        0.027397295460104942,
+        6.083421646453356e-18,
         0.0,
         0.0,
         0.0,
@@ -791,6 +827,10 @@
     {
       "sampler": 0,
       "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
     }
   ]
 }

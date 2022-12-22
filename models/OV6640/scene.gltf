@@ -786,10 +786,10 @@
     "extras": {
       "author": "art.piskov (https://sketchfab.com/art.piskov)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/93be716bc10644dc8542a5d5729470a3",
-      "title": "авпролрпав"
+      "source": "https://sketchfab.com/3d-models/klllllllllllsvvlvds-da6b598727a14b7c9be38be353b69328",
+      "title": "kllllllllll,lsvv;lvds"
     },
-    "generator": "Sketchfab-14.41.0",
+    "generator": "Sketchfab-14.60.0",
     "version": "2.0"
   },
   "bufferViews": [
@@ -822,6 +822,9 @@
       "uri": "scene.bin"
     }
   ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
   "images": [
     {
       "uri": "textures/M_OV6640_01_baseColor.png"
@@ -830,7 +833,7 @@
       "uri": "textures/M_OV6640_02_baseColor.png"
     },
     {
-      "uri": "textures/M_WindowsBack_baseColor.png"
+      "uri": "textures/M_GlassTrans_baseColor.png"
     }
   ],
   "materials": [
@@ -858,20 +861,37 @@
     },
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
       "name": "M_GlassTrans",
       "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          0.025191469456802472,
-          0.025191469456802472,
-          0.025191469456802472,
-          1.0
-        ],
+        "baseColorTexture": {
+          "index": 2
+        },
         "metallicFactor": 0.222727,
         "roughnessFactor": 0.0
       }
     },
     {
       "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
       "name": "M_WindowsBack",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
@@ -1100,17 +1120,17 @@
         1
       ],
       "matrix": [
-        0.015384615398943424,
+        0.029308071359992027,
         0.0,
         0.0,
         0.0,
         0.0,
-        3.4160708481819456e-18,
-        -0.015384615398943424,
+        6.507699126244055e-18,
+        -0.029308071359992027,
         0.0,
         0.0,
-        0.015384615398943424,
-        3.4160708481819456e-18,
+        0.029308071359992027,
+        6.507699126244055e-18,
         0.0,
         0.0,
         0.0,
